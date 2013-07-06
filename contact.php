@@ -101,6 +101,11 @@
     <div class="container">
     <br />
     <h2>Contact me</h2>
+        <a href="http:/facebook.com/michaeldelfino"><img src="assets/img/facebook-icon.png"></a>
+        <a href="http://www.linkedin.com/pub/michael-delfino/3b/484/322"><img src="assets/img/linkedin-icon.png"></a>
+        <a href="https://plus.google.com/u/0/117376382668744175141/posts"><img src="assets/img/google-plus-icon.png"></a>
+        <a href="https://github.com/madelfino"><img src="assets/img/github-icon.png"></a>
+        <br /><br />
 			<?php
 					$to = "megabeano@gmail.com";
 					$name = $_POST['name'];
