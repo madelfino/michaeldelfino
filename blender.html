@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Michael Delfino 3D Art</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" href="http://michaeldelfino.com/bN.png">
+
+    <!-- styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+
+    /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+    /* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      margin-top: 20px;
+      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+    }
+    .navbar-wrapper .navbar {
+
+    }
+
+    /* Remove border and change up box shadow for more contrast */
+    .navbar .navbar-inner {
+      border: 0;
+      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+              box-shadow: 0 2px 10px rgba(0,0,0,.25);
+    }
+
+    /* Downsize the brand/project name a bit */
+    .navbar .brand {
+      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+      font-size: 16px;
+      font-weight: bold;
+      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    }
+
+    /* Navbar links: increase padding for taller navbar */
+    .navbar .nav > li > a {
+      padding: 15px 20px;
+    }
+
+    /* Offset the responsive button for proper vertical alignment */
+    .navbar .btn-navbar {
+      margin-top: 10px;
+    }
+
+    #projects {
+        margin:0 auto;
+        float:none;
+    }
+
+    .blender {
+      width: 75%;
+      margin: auto;
+      padding-bottom: 50px;
+    }
+
+    .blender-container {
+      text-align: center;
+    }
+
+    </style>
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+  </head>
+
+  <body>
+
+    <!-- NAVBAR
+    ================================================== -->
+    <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="http://www.michaeldelfino.com">Michael Delfino</a>
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="active"><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="./blog">Blog</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+
+    <div class="container">
+    <br />
+
+    <div class="blender-container">
+      <h2>Example 3D Assets I've Made in Blender</h2>
+
+      <h3>Low Poly Game Art</h3>
+      <div><h4>Alien Treehouse</h4><img class="blender" src="assets/img/blender/alien-treehouse.png" /></div>
+      <div><h4>Alien Plant</h4><img class="blender" src="assets/img/blender/alient-plant.png" /></div>
+      <div><h4>Player</h4><img class="blender" src="assets/img/blender/player-character.png" /></div>
+      <div><h4>Player in Scene</h4><img class="blender" src="assets/img/blender/player-workbench.png" /></div>
+      <div><h4>Creature</h4><img class="blender" src="assets/img/blender/creature.png" /></div>
+      <div><h4>Unity Prefab</h4><img class="blender" src="assets/img/blender/broken-zipline.png" /></div>
+      <div><h4>Helicopter</h4><img class="blender" src="assets/img/blender/helicopter.png" /></div>
+      <div><h4>Icons for in-game Resources</h4><img class="blender" src="assets/img/blender/resource-icons.png" /></div>
+
+      <h3>From Tutorials</h3>
+      <div><h4>Donut scene made while following a <a href="https://www.youtube.com/watch?v=TPrnSACiTJ4&list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U">Blender Guru</a> Tutorial series</h4>
+        <img class="blender" src="assets/img/blender/donut-scene.png" /></div>
+      <div><h4>Well made while following a tutoiral series by <a href="https://www.youtube.com/watch?v=OlnkGCdtGEw">Grant Abbitt</a></h4>
+        <img class="blender" src="assets/img/blender/well.png" /></div>
+
+      <h3>Interior Architecture</h3>
+      <div><h4>Living Room</h4><img class="blender" src="assets/img/blender/living-room.png" /></div>
+      <div><h4>AC over Backdoor</h4></h4><img class="blender" src="assets/img/blender/ac-backdoor.png" /></div>
+      <div><h4>Condo model</h4></h4><img class="blender" src="assets/img/blender/condo.jpg" /></div>
+    </div>
+    <script src="assets/js/jquery.js"></script>
+
+  </body>
+</html>
